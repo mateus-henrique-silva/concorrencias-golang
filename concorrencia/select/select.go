@@ -20,7 +20,6 @@ func main() {
 			canal2 <- "teste de canal 2"
 		}
 	}()
-
 	for {
 		select {
 		case menssagem1 := <-canal1:
